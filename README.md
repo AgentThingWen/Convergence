@@ -1,10 +1,11 @@
 # Convergence
 
-My personal e-commerce platform project. Started this as a way to learn full-stack development, and it actually turned out pretty decent! 
+My personal e-commerce platform project. Started this as a way to learn full-stack development, and it actually turned out pretty decent!
 
 ## What This Is
 
 Basically, I wanted to build something real instead of just following tutorials. This is a full e-commerce site where users can:
+
 - Sign up and log in (with proper security)
 - Add/edit/delete products (if they own them)
 - Browse all products
@@ -12,7 +13,8 @@ Basically, I wanted to build something real instead of just following tutorials.
 
 ## Tech Stack (What I Used)
 
-### Backend  
+### Backend
+
 - **Node.js + Express** - The classic combo
 - **JWT** - For authentication (tokens are cool)
 - **bcrypt** - Password hashing (security first!)
@@ -22,7 +24,7 @@ Basically, I wanted to build something real instead of just following tutorials.
 
 ## Project Structure
 
-```
+```text
 Convergence/
 ├── backend/                  # Express API
 │   ├── src/
@@ -38,20 +40,23 @@ Convergence/
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v16+ recommended)
 - npm (comes with Node)
 
 ### Setup
 
 1. **Clone this repo**
+
    ```bash
    git clone <your-repo-url>
    cd Convergence
    ```
 
 2. **Environment files** (create these manually)
-   
+
    Create `backend/.env`:
+
    ```env
    JWT_SECRET=your_super_secure_jwt_secret_key_2025
    PORT=10000
@@ -64,23 +69,27 @@ Convergence/
    ```
 
 3. **Install dependencies**
+
    ```bash
    cd backend
    npm install
    ```
 
 4. **Run migrations**
+
    ```bash
    npx sequelize-cli db:migrate
    ```
 
 5. **Start development**
+
    ```bash
    npm start
    ```
 
 6. **Check it out**
-   - Backend: http://localhost:10000
+
+   - Backend: [http://localhost:10000](http://localhost:10000)
 
 ## API Endpoints
 
@@ -92,6 +101,7 @@ Convergence/
 ## Development Notes
 
 ### Running Tests
+
 ```bash
 cd backend
 test
@@ -108,6 +118,7 @@ test
 ## Contributing
 
 This is my personal project, but if you find bugs or have suggestions, feel free to:
+
 1. Fork it
 2. Create a feature branch
 3. Make your changes
@@ -119,4 +130,4 @@ ISC License - basically do whatever you want with it.
 
 ---
 
-**Built with ❤️ and lots of coffee while learning full-stack development**
+Built with ❤️ and lots of coffee while learning full-stack development

@@ -1,7 +1,7 @@
 services:
   - type: web
     name: convergence-backend
-    env: node
+    runtime: node
     plan: free
     buildCommand: cd backend && npm install && npx sequelize-cli db:migrate
     startCommand: cd backend && npm start

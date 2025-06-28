@@ -13,9 +13,10 @@ This guide covers deploying the Convergence backend to Render (Node.js + Express
 2. **Render Account**: Sign up at [render.com](https://render.com)
 3. **Environment Variables**: Prepare your production environment variables
 
-## 🔧 Environment Variables Setup
+## 🛠️ Environment Variables Setup
 
 ### Backend (Render)
+
 Set these environment variables in your Render dashboard:
 
 ```env
@@ -53,7 +54,7 @@ DB_PORT=5432
 4. **Deploy**:
    - Click "Create Web Service"
    - Wait for deployment to complete
-   - Note your backend URL (e.g., `https://convergence-backend.onrender.com`)
+   - Note your backend URL (e.g., [https://convergence-backend.onrender.com](https://convergence-backend.onrender.com))
 
 ---
 
