@@ -3,7 +3,7 @@ services:
     name: convergence-backend
     runtime: node
     plan: free
-    buildCommand: cd backend && npm install && npx sequelize-cli db:migrate
+    buildCommand: cd backend && npm ci --only=production && npx sequelize-cli db:migrate
     startCommand: cd backend && npm start
     envVars:
       - key: NODE_ENV
